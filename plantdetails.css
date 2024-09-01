@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'gilroy';
+}
+
+/* Details Section Styles */
+.details {
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin: 2rem auto;
+    max-width: 1200px;
+    position: relative;
+    top: 80px; /* Adjust this value to ensure spacing below the navbar */
+}
+
+.Back-button {
+    background-color: #1a202c;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.Back-button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.plant-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plant-text {
+    max-width: 60%;
+}
+
+.plant-text h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #1a202c;
+}
+
+.plant-text p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.plant-image img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.plant-detail-container{
+    padding: 20px 36px;
+
+}
